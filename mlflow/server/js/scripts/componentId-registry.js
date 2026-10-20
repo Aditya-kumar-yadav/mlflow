@@ -833,6 +833,10 @@ module.exports = {
   "mlflow.eval-datasets-v2.side-panel.source-trace-link": "",
   "mlflow.eval-datasets-v2.trace-modal": "",
 
+  // -- mlflow.eval-run --
+  "mlflow.eval-run.traces.selected-trace-error": "",
+  "mlflow.eval-run.traces.selected-trace-error.retry": "",
+
   // -- mlflow.eval-runs --
   "mlflow.eval-runs.actions-button": "",
   "mlflow.eval-runs.actions.compare": "",
@@ -861,6 +865,7 @@ module.exports = {
   "mlflow.eval-runs.compare-button.tooltip": "",
   "mlflow.eval-runs.dataset-cell": "",
   "mlflow.eval-runs.dataset-cell-tooltip": "",
+  "mlflow.eval-runs.dataset-cell.hover-card.view-dataset": "",
   "mlflow.eval-runs.dataset-version-cell-tooltip": "",
   "mlflow.eval-runs.empty-state.learn-more-link": "",
   "mlflow.eval-runs.empty-state.unified": "",
@@ -903,6 +908,20 @@ module.exports = {
   "mlflow.eval-runs.unified-search.error": "",
   "mlflow.eval-runs.unified-search.input": "",
   "mlflow.eval-runs.visibility-mode-selector": "",
+
+  // -- mlflow.eval_run_details --
+  "mlflow.eval_run_details.breadcrumb.evaluation_runs": "",
+  "mlflow.eval_run_details.overview.dataset_link": "",
+  "mlflow.eval_run_details.overview.dataset_tooltip": "",
+  "mlflow.eval_run_details.overview.prompt_link": "",
+  "mlflow.eval_run_details.overview.prompt_tooltip": "",
+  "mlflow.eval_run_details.overview.scorer_link": "",
+  "mlflow.eval_run_details.overview.tag": "",
+  "mlflow.eval_run_details.overview.tag_tooltip": "",
+  "mlflow.eval_run_details.run_stats.total_cost.info": "",
+  "mlflow.eval_run_details.sidebar.footer_toggle": "",
+  "mlflow.eval_run_details.sidebar.toggle": "",
+  "mlflow.eval_run_details.status_tag": "",
 
   // -- mlflow.evaluations_overview --
   "mlflow.evaluations_overview.column_selector_dropdown": "",
@@ -1014,6 +1033,13 @@ module.exports = {
   "mlflow.experiment-issues.detection-error": "",
   "mlflow.experiment-issues.empty-state.learn-how": "",
   "mlflow.experiment-issues.empty-state.run-detection": "",
+  "mlflow.experiment-issues.evidence.expand-toggle": "",
+  "mlflow.experiment-issues.evidence.load-error": "",
+  "mlflow.experiment-issues.evidence.page-error": "",
+  "mlflow.experiment-issues.evidence.retry": "",
+  "mlflow.experiment-issues.evidence.show-more": "",
+  "mlflow.experiment-issues.evidence.view-span": "",
+  "mlflow.experiment-issues.evidence.view-trace": "",
   "mlflow.experiment-issues.load-more": "",
   "mlflow.experiment-issues.page-error": "",
   "mlflow.experiment-issues.read-error": "",
@@ -1075,6 +1101,7 @@ module.exports = {
   "mlflow.experiment-scorers.new-scorer-button": "",
   "mlflow.experiment-scorers.output-type-select": "",
   "mlflow.experiment-scorers.scorer-status-tag": "",
+  "mlflow.experiment-scorers.selected-scorer-not-found": "",
   "mlflow.experiment-scorers.switch-to-endpoint-link": "",
   "mlflow.experiment-scorers.switch-to-manual-link": "",
   "mlflow.experiment-scorers.traces-view-create-judge": "",
@@ -2337,6 +2364,7 @@ module.exports = {
   "mlflow.traces-v4.saved_views": "",
   "mlflow.traces-v4.saved_views.delete_confirm": "",
   "mlflow.traces-v4.saved_views.trigger": "",
+  "mlflow.traces-v4.search.typeahead": "",
 
   // -- mlflow.unified-search --
   "mlflow.unified-search.add-filter": "",
@@ -2505,6 +2533,12 @@ module.exports = {
   "shared.model-trace-explorer.span-cost-hovercard.input-cost.tag": "",
   "shared.model-trace-explorer.span-cost-hovercard.output-cost.tag": "",
   "shared.model-trace-explorer.span-cost-hovercard.total-cost.tag": "",
+  "shared.model-trace-explorer.span-issue-evidence": "",
+  "shared.model-trace-explorer.span-issue-evidence.view-issue-details": "",
+  "shared.model-trace-explorer.span-issue-evidence.view-issue-details-button": "",
+  "shared.model-trace-explorer.span-issue-evidence.view-issue-details-tooltip": "",
+  "shared.model-trace-explorer.span-issue-indicator": "",
+  "shared.model-trace-explorer.span-issue-indicator-tooltip": "",
   "shared.model-trace-explorer.span-link-count": "",
   "shared.model-trace-explorer.span-model-badge": "",
   "shared.model-trace-explorer.span-name-tag": "",
